@@ -1,1 +1,60 @@
-dmkfdf
+body{
+  background: white;
+  text-align: center;
+}
+
+#main{
+  background: rgba(226, 226, 226, 0.877);
+  font-size: 1.5rem;
+  padding: 15px;
+}
+@media(max-width:480px){
+  #main{
+    font-size: 12px;
+  }
+}
+
+h1{
+  padding-top: 50px;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#img-div{
+  padding: 15px;
+  background: white;
+}
+#img-caption{
+  text-align: center;
+  font-size: 1rem;
+}
+@media(max-width:480px){
+  img{
+    max-width: 90%;
+  }
+  #img-caption{
+    padding-top: 10px;
+  }
+}
+
+#tribute-info{
+  font-size: 1rem;
+  padding: 5% 200px 0 200px;
+}
+ul{
+  text-align: justify;
+  
+}
+@media(max-width:480px){
+  #tribute-info{
+    padding: 0 0 0 0;
+    text-align: justify;
+  }
+}
